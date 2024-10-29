@@ -5,23 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edg">
     <style>
-        body{
+        .corpo{
             background-color: rgb(31, 31, 75);
             color: white;
             font: normal 30pt arial;
         }
+        
+        .conteudo{
+            text-align: center;
+            color: rgb(255, 0, 0);
+            background-color: burlywood;
+            border-radius: 15px;
+            width: 500px;
+            margin:100px auto;
+            
+        }
+        
     </style>
     <title>Minha primeira programação</title>
 
 </head>
 
-<body>
+<body class="corpo">
 
 
-<h1>Olá mundo</h1>
-<p>Desenvolvendo em JS</p>
+<h1 class="conteudo">Olá mundo!</h1>
+<p class="conteudo">Desenvolvendo em JS</p>
 <script>
-    window.alert('Minha primeira mensagem!')
+    window .alert('Minha primeira mensagem!')
+    window .confirm('Está gostando de JS?')
+    Window .prompt('Qual é o seu nome?')
 </script>
 
 
