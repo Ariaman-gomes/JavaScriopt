@@ -1,8 +1,8 @@
 console.log('vai começar...')
-for(var c =1; c<=5; c++){
+for(var c =1; c<=3; c++){
     console.log(c)
 }
-confirm.log('fim')
+console.log('FIM! ')
 
 
 
