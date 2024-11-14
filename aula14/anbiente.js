@@ -1,20 +1,11 @@
-console.log('vai começar...')
-for(var c =1; c<=3; c++){
-    console.log(c)
-}
-console.log('FIM! ')
-
-
-
-/*var c = 1 
-while (c <= 5)
-{
+/*var c=1
+while(c<=4){
     console.log(c)
     c++
 }*/
 
-/*for(var c = 1; c <= 5 ; c++){
-    /*BLOCO */
-    /*console.log(c)*/
+console.log('Iniciou a cessão.')
+for(var c=1; c<=5; c++){
+    console.log(c)
 
-
+}console.log('Fim de teste...')
