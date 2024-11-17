@@ -28,3 +28,7 @@ footer{
     text-align: center;
     font-style: italic;
 }
+div.barra{
+    align-items: center;
+    color: brown;
+}
