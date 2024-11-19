@@ -1,7 +1,7 @@
-let num = document.querySelector('imput#fnum')
-let lista=document.querySelector('select#flist')
+let num = document.querySelector('input#fnum')
+let lista=document.querySelector('select#flista')
 let res = document.querySelector('div#res')
-let valorer= []
+let valores= []
 
 
 function isNumero(n){
@@ -12,7 +12,7 @@ function isNumero(n){
     }
 }
 
-function isLista(n,l ){
+function inLista(n,l){
     if(l.indexOf(Number(n))!= -1){
         return true
     }else{
@@ -20,9 +20,12 @@ function isLista(n,l ){
     }
 }
 
-function adicionar(){
-    if(isNumero(num.value) && !isLista(num.value, valores)) {
-        window.alert('Tudo ok')
+function adicionar() {
+    if(isNumero(num.value) && !inLista(num.value, valores)) {
+        valores.push (Number(num.value))
+        let item = document.createElement('option')
+        item.text = `Valor ${num.value} adicionado.`
+        lista.appendChild(item)
         
         }else {
         window.alert('Valor inválido ou já encontrado.')
